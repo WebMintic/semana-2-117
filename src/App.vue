@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <section-menu></section-menu>
+    <div class="container-fluid">
+      <section-noticia></section-noticia>
+    </div>
     <div class="container my-5 py-5 text-center">
       <div class="row mb-5">
           <div class="col">
@@ -12,21 +16,23 @@
       <div class="row justify-content-around">
         <team-card v-for="m in team" :key="m.codigo" v-bind:member="m"></team-card>
       </div>
-    </div>
     <page-footer></page-footer>
   </div>
 </template>
 
-
 <script>
+import SectionMenu from "./components/SectionMenu.vue";
 import PageFooter from "./components/PageFooter.vue";
 import TeamCard from "./components/TeamCard.vue"
+import SectionNoticia from "./components/SectionNoticia.vue";
 
 export default {
   name: "App",
   components: {
+    SectionMenu,
     PageFooter,
     TeamCard,
+    SectionNoticia,
   },
   data() {
     return {
