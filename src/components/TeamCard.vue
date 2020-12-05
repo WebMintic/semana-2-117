@@ -1,16 +1,15 @@
 <template>
-    <div>
-
-    </div>
+  <div>
+    <div class="conatiner-fluid"></div>
+  </div>
 </template>
 
 <script>
-    export default {
-        name: "TeamCard",
-        props: ['member']
-    }
+export default {
+  name: "TeamCard",
+  props: ["member"],
+};
 </script>
 
 <style scoped>
-
 </style>
