@@ -9,7 +9,7 @@
               sobre HTML5 y todo lo que conlleba, se escogio una landing page de
               hoteles por facilidad.
             </p>
-            <a href="https://github.com/WebMintic/semana-1-117"
+            <a href="https://github.com/WebMintic/semana-2-117.git"
               >Link al repositorio</a
             >
           </div>
