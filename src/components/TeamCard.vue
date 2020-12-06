@@ -8,12 +8,10 @@
           class="img-fluid shadow rounded-circle w-75 mb-3"
         />
         <div class="card-content">
-          <h3>{{ member.nombre }}</h3>
+          <h3>{{ member.nombre }} -- {{member.codigo}}</h3>
           <p><b>Rol: </b>{{ member.rol }}</p>
           <p><b>Edad: </b>{{ member.edad }}</p>
-          <p><b>Ocupacion: </b>{{ member.descripcion.ocupacion }}</p>
-          <p><b>Residencia: </b>{{ member.descripcion.residencia }}</p>
-          <p><b>Pasatiempos: </b>{{ member.descripcion.pasatiempos }}</p>
+          <p><b>descripcion: </b>{{ member.descripcion}}</p>
         </div>
       </div>
     </div>
