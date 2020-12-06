@@ -3,12 +3,13 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
       <a class="navbar-brand" href="#">
         <img
-          src="https://getbootstrap.com/docs/4.5/assets/brand/bootstrap-solid-svg"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png"
           width="30"
           height="30"
           class="text-white d-inline-block align top"
           alt=" "
           loading="lazy"
+          style="margin-right: 10px"
         />Desarrollo de talento digital - Equipo 117
       </a>
 
@@ -53,7 +54,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active bg-light">
           <img
-            class="rounded mx-auto d-block"
+            class="d-block w-100 cortar"
             src="https://placeimg.com/1000/480/animals"
             alt="Responsive image"
           />
@@ -65,7 +66,7 @@
 
         <div class="carousel-item bg-light">
           <img
-            class="rounded mx-auto d-block"
+            class="d-block w-100 cortar"
             src="https://placeimg.com/1000/480/nature"
             alt="Responsive image"
           />
@@ -77,7 +78,7 @@
 
         <div class="carousel-item bg-light">
           <img
-            class="rounded mx-auto d-block"
+            class="d-block w-100 cortar"
             src="https://placeimg.com/1000/480/arch"
             alt="Responsive image"
           />
@@ -118,4 +119,9 @@ export default {
 </script>
 
 <style scoped>
+.cortar {
+  overflow: hidden;
+  max-height: 400px;
+  object-fit: cover;
+}
 </style>
