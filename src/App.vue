@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <section-menu></section-menu>
-    <div class="container-fluid">
+    <div class="container-fluid" id="news">
       <section-noticia></section-noticia>
     </div>
-    <div class="container py-5 text-center">
+    <div class="container py-5 text-center" id="teams">
       <div class="row">
         <div class="col">
           <h1>Nuestro Equipo</h1>
@@ -15,13 +15,13 @@
           </p>
         </div>
       </div>
-    </div>
-    <div class="row justify-content-around">
-      <team-card
-        v-for="m in team"
-        :key="m.codigo"
-        v-bind:member="m"
-      ></team-card>
+      <div class="row justify-content-around">
+        <team-card
+          v-for="m in team"
+          :key="m.codigo"
+          v-bind:member="m"
+        ></team-card>
+      </div>
     </div>
     <page-footer></page-footer>
   </div>

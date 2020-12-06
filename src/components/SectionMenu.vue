@@ -22,10 +22,6 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-white" href="#services">Servicios </a>
-          </li>
-
-          <li class="nav-item">
             <a class="nav-link text-white" href="#news">Noticias </a>
           </li>
 
